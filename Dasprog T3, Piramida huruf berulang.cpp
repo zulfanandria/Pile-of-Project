@@ -83,6 +83,8 @@ int main()
             {
                 in_m = m;
             }
+            
+            // ASCII Converter lower-upper case
             hurcil = in_m + 96;
             hursar = in_m + 64 - 26;
             angka = in_m + 47 - 52;
