@@ -14,7 +14,7 @@ int main()
     for (size_t i = 0; i < n; i++) /*pengulangan baris*/
     {
         a++;
-        for (size_t j = 1; j < n - i; j++) /*pengulanan tanda " - "*/
+        for (size_t j = 1; j < n - i; j++) /*pengulanan tanda " - ", dapat diubah menjadi "  " */
         {
             cout << " -";
         }
