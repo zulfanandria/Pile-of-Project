@@ -7,7 +7,7 @@ int main()
     // Hursar = Huruf besar/kapital
     int a, hurcil, hursar, angka, p, i, j, k, n, m, o, r;
     cout << "Masukkan angka : ";
-    cin >> n;
+    cin >> n;       /*Input jumlah baris*/
     a = 0;       /*baris ke-*/
 
 
