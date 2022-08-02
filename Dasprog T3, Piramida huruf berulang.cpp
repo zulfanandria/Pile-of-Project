@@ -33,7 +33,7 @@ int main()
             if (k > 62)
             {
                 r = a / 62;
-                if (r > 1)
+                if (r > 1) // Pengulangan dalam ASCII
                 {
                     in_k = k % 62;
                     if (in_k == 0)
