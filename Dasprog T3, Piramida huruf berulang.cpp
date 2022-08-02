@@ -21,6 +21,12 @@ int main()
         cout << " ";
 
         /* Input kiri dan tengah*/
+        /*  
+            - - - a - - - 
+            - - a b a - -
+            - a b c b a -
+            a b c d c b a
+        */
         for (size_t k = 1; k < a + 1; k++)
         {
             int in_k;
