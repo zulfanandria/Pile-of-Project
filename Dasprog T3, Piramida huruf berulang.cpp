@@ -95,6 +95,7 @@ int main()
             hurcil = in_m + 96;
             hursar = in_m + 64 - 26;
             angka = in_m + 47 - 52;
+            
             if (hurcil == 97)
             {
                 hurcil = 58;
