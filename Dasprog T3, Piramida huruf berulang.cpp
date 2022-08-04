@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    
     // hurcil = Huruf kecil
     // Hursar = Huruf besar/kapital
     int a, hurcil, hursar, angka, p, i, j, k, n, m, o, r;
@@ -13,7 +14,9 @@ int main()
 
     for (size_t i = 0; i < n; i++) /*pengulangan baris*/
     {
+        
         a++;
+        
         for (size_t j = 1; j < n - i; j++) /*pengulanan tanda " - ", dapat diubah menjadi "  " */
         {
             cout << " -";
