@@ -14,7 +14,6 @@ int main()
 
     for (size_t i = 0; i < n; i++) /*pengulangan baris*/
     {
-        
         a++;
         
         for (size_t j = 1; j < n - i; j++) /*pengulanan tanda " - ", dapat diubah menjadi "  " */
@@ -56,17 +55,14 @@ int main()
             if (in_k <= 26)
             {
                 cout << char(96 + in_k) << " ";
-
             }
             else if (in_k <= 52)
             {
                 cout << char(64 + in_k - 26) << " ";
-
             }
             else if (in_k <= 62)
             {
                 cout << char(47 + in_k - 52) << " ";
-
             }
         }
 
